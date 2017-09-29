@@ -1380,3 +1380,39 @@ footer .credits {
        -o-transition: none;
           transition: none;
 }
+
+.mapa{
+
+background-color: #232527;	
+width: 100%;
+height: 50px;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+
+* div de mapa */
+#map
+{
+	background: white;
+	width: 650px;
+	height: 440px;
+}
+/* div que contenda la informacion de la finca */
+#finca_def
+{
+	background: white;
+	width: 250px;
+	height: 200px;
+}
+
+/* alinear los p en la definicion de la finca a la izquierda */
+#finca_def p
+{
+	text-align: left;
+
+}
+
+body{
+	background: red;
+}
